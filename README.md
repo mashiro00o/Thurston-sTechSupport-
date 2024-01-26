@@ -1,1 +1,1 @@
-# Thursto's Tech Support
+# Thurston's Tech Support
