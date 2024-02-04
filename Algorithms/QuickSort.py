@@ -23,4 +23,4 @@ def quicksort(A):
 
 # main
 data = [4, 7, 1, 5, 2, 8, 3] # Test data set
-print(quicksort(data))
+print(quicksort(data)) # output [1, 2, 3, 4, 5, 7, 8]
