@@ -16,3 +16,9 @@ del my_dict['orange']
 # Iterating through a dictionary
 for key, value in my_dict.items():
     print(key, ':', value)
+
+# output 
+# 10
+# apple : 8
+# banana : 10
+# grape : 3
