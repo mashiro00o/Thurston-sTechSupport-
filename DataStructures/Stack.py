@@ -1,3 +1,4 @@
+# Stack - LIFO (last in first out)
 class Stack:
     def __init__(self):
         # Initialize an empty list to store the elements of the stack
