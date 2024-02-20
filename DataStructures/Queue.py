@@ -1,3 +1,4 @@
+# Queue - FIFO (first in first out)
 class Queue:
     def __init__(self):
         # Initialize an empty list to store the elements of the queue
