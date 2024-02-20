@@ -56,8 +56,10 @@ def delete(key):
 
 
 # main
-N = 10 # Size of the hash table
-hash_table = [-1 for i in range(N)] # Initialize the hash table with empty slots
+N = 10 # Size of hash table
+hash_table = [] # Initialize empty list
+for i in range(N):
+  hash_table.append(-1)
 print(hash_table)
 
 # Records to be inserted into the hash table
