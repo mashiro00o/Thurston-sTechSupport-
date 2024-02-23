@@ -14,19 +14,6 @@ if len(classroom) != 5:
     print('No such classroom')
 
 
-# Data type check
-value = input('Enter a number: ')
-# Converting the input value to a float data type and storing it in the variable 'true_value'.
-true_value = float(value)
-# Checking if the float value represented by 'true_value' is an integer.
-if true_value.is_integer():
-    # If the float value is an integer, this block of code is executed, printing a message indicating it's an integer value.
-    print('integer value')
-else:
-    # If the float value is not an integer, this block of code is executed, printing a message indicating it's not an integer.
-    print('not an integer')
-
-
 # Format check (digit)
 number = input("Enter a number: ")
 # Checking if the input consists of only digits.
