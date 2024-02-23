@@ -1,10 +1,12 @@
-# for loop eg. calculate factorial 5!
-total = 0 # avoid using sum because it is a function in python 
+# for loop eg. finding the sum of something
+total = 0
 for i in range(5):
-  total *= i # total = total * i
-print(total) 
+  total += 8
+
+print(total)
 
 vowels = ['a', 'e', 'i', 'o', 'u']
+word = input()
 count = 0
 for letter in word: 
   if letter in vowels:
