@@ -43,10 +43,10 @@ class Staff(Person):  # Defines a child/sub class called Staff, inheriting from 
         print(self.dept)
 
 # main
-MrTan = Person("Husband", 18)  # Creates an instance of Person
-MsLim = Person("Wife", 15)  # Creates another instance of Person
+MrTan = Person("Husband", 34)  # Creates an instance of Person
+MsLim = Person("Wife", 30)  # Creates another instance of Person
 John = Student("Son", 14, "Visual arts")  # Creates an instance of Student
-MrNg = Staff("Teacher", 120, "Math")  # Creates an instance of Staff
+MrNg = Staff("Teacher", 35, "Math")  # Creates an instance of Staff
 people = [MrTan, MsLim, John, MrNg]  # Stores instances in a list
 
 # Polymorphism
@@ -55,12 +55,12 @@ for person in people:  # Iterates through each person in the list
 
 # output
 # Husband
-# 18
+# 34
 # Wife
-# 15
+# 30
 # Son
 # 14
 # Visual arts
 # Teacher
-# 120
+# 35
 # Math
